@@ -1,0 +1,158 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img{
+    width: 130px;
+    
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-self:space-between;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    padding:10px;
+    background-color: rgb(255, 255, 255);
+    flex: auto;
+    font-size: 20px;
+    border: 1px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+nav ul li :hover{
+    color: rgb(27, 11, 255);
+}
+
+.icons{
+    align-items: center;
+}
+.icons-sociales{
+    width: 25px;
+    margin: 15px 10px 10px 10px ;
+
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transform: translateY(-50%);
+}
+
+.carousel-prev {
+    left: 10px;
+    width: 50px;
+}
+
+.carousel-next {
+    right: 10px;
+    width: 50px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+header{
+    background: url(/IMAGENES/Imagen\ de\ banber.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items:  center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    color: rgb(255, 255, 255);
+}
+
+.productos{
+    margin:10px 20px 10px 190px;
+    list-style: none;
+    display: flex;
+    justify-self:space-between;
+
+}
+
+main{
+    padding: 50px;
+}
+
+section{
+    margin: 20px;
+    width: 200px;
+    height: 50dvh;
+    background-color:rgb(255 255 255);
+    font-size: 10px;
+
+
+}
+.destacados{
+    display: flex;
+    justify-content: center;
+} 
+.nosotros{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    align-items:  center
+    justify-content: center
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+
+
+ }
+
