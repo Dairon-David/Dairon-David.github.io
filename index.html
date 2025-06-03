@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Mundo - Restaurante Gourmet</title>
+    <link rel="icon" href="/logo .jpg">
+    <link rel="stylesheet" href="/stayl.css">
+
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Sabores del Mundo</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Sabores que Inspiran</h1>
+            <p>Experiencias gastronómicas únicas con ingredientes frescos y de temporada</p>
+            <a href="#reservas" class="btn">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección Especialidades -->
+    <section class="especialidades">
+        <div class="container">
+            <h2 class="section-title">Nuestras Especialidades</h2>
+            <div class="especialidades-grid">
+                <div class="especialidad-card">
+                    <div class="especialidad-img">
+                        <img src="/Vegan Truffle Carbonara _ Indulgent and Creamy Plant-Based Pasta Recipe.jpeg" alt="Pasta Trufada">
+                    </div>
+                    <h3>Pasta Trufada</h3>
+                    <p>Pasta fresca con salsa de trufa negra y champiñones silvestres.</p>
+                </div>
+                <div class="especialidad-card">
+                    <div class="especialidad-img">
+                        <img src="/Easy Crockpot Recipes family _ Salmón Glaseado de Arándanos _ Facebook.jpeg" alt="Salmón Glaseado">
+                    </div>
+                    <h3>Salmón Glaseado</h3>
+                    <p>Salmón noruego con glaseado de miel y mostaza, acompañado de vegetales asados.</p>
+                </div>
+                <div class="especialidad-card">
+                    <div class="especialidad-img">
+                        <img src="/🍮🍷 A Taste of Italian Elegance 🇮🇹🌆.jpeg" alt="Tiramisú Clásico">
+                    </div>
+                    <h3>Tiramisú Clásico</h3>
+                    <p>Postre italiano tradicional con café, mascarpone y cacao en polvo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="entradas">Entradas</button>
+                <button class="tab-btn" data-category="principales">Platos Principales</button>
+                <button class="tab-btn" data-category="postres">Postres</button>
+                <button class="tab-btn" data-category="bebidas">Bebidas</button>
+            </div>
+            <div class="menu-items">
+                <!-- Los elementos del menú se cargarán dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-content">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <p>Fundado en 2010, Sabores del Mundo nació del sueño de compartir experiencias culinarias auténticas. Nuestro chef ejecutivo, con más de 20 años de experiencia en cocinas internacionales, crea platos que combinan tradición e innovación.</p>
+                <p>Utilizamos ingredientes locales de proveedores sostenibles, apoyando a nuestra comunidad mientras ofrecemos lo mejor de la gastronomía global.</p>
+                <a href="#contacto" class="btn btn-outline">Conoce al Equipo</a>
+            </div>
+            <div class="nosotros-img">
+                <img src="/equipo de chef.jpeg" alt="Nuestro equipo de chefs">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Reservas -->
+    <section class="reservas" id="reservas">
+        <div class="container">
+            <h2 class="section-title">Reserva una Mesa</h2>
+            <form class="reserva-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Número de personas</option>
+                        <option value="1">1 persona</option>
+                        <option value="2">2 personas</option>
+                        <option value="3-4">3-4 personas</option>
+                        <option value="5-6">5-6 personas</option>
+                        <option value="7+">7+ personas</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Confirmar Reserva</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonios-slider">
+                <div class="testimonio active">
+                    <p>"La mejor experiencia gastronómica que he tenido en años. Cada plato es una obra de arte!"</p>
+                    <div class="cliente">
+                        <h4>María González</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <p>"El servicio impecable y los sabores exquisitos. Volveré pronto con más amigos!"</p>
+                    <div class="cliente">
+                        <h4>Carlos Mendoza</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <p>"Perfecto para una cena especial. La ambientación y la comida crean una experiencia memorable."</p>
+                    <div class="cliente">
+                        <h4>Ana López</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-info">
+                <h2 class="section-title">Contacto</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Calle Gourmet 123, Distrito Gastronómico, Ciudad</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@saboresdelmundo.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Lunes a Sábado: 12:00 - 23:00<br>Domingo: 12:00 - 17:00</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+            <div class="contacto-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291234!2d-73.987844924239!3d40.74844097138998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876428785!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="/logo .jpg" alt="Sabores del Mundo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Suscríbete a nuestro newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Tu email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sabores del Mundo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
